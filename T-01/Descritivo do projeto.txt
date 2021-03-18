@@ -7,6 +7,13 @@ O sistema por sua vez é integrado e pode ser acessado em milhares de dispositiv
 O acesso ao conteúdo do serviço torna-se ilimitado ao usuário, mediante adesão de um plano de assinatura, a partir disto o usuário fica à vontade para usufruir da plataforma como bem quiser.
 O conteúdo é adequado de acordo com suas preferências e conteúdos assistidos, mas independentemente destas sugestões o usuário não é privado de nenhum dos conteúdos disponíveis no catálogo.
 
+Por mais que seja um sistema que atinja diversas localidades simultaneamente, existe algumas restrições dentro de sua execução, sendo elas:
+• Cada país possuí suas restrições de conteúdo e sua padronização para legendas e áudio.
+• Alguns países podem ter conteúdos exclusivos ou com preferências de exibição.
+• Seu conteúdo pode ser reproduzido em praticamente qualquer dispositivo desde que haja conexão com a internet.
+• Os dados da conta devem estar integrados em todos os dispositivos, ou seja, o registro de atividades e devem estar atrelados ao perfil do usuário e não ao dispositivo.
+• Riscos de execução: restrições governamentais e acordos com estúdios para distribuição de conteúdo.
+
 Porque é um sistema distribuído:
 
 O Watchaholic é um sistema distribuído pois cumpre com as características necessárias.
