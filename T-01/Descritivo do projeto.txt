@@ -1,0 +1,20 @@
+Nome: Watchaholic (Streaming)
+
+O que é:
+
+Um serviço de assinatura de Streaming (transmissão online) que permite aos usuários assistir a um vasto catálogo de séries e filmes, fornecendo comodidade para consumir o conteúdo qualquer momento e em qualquer lugar, desde que utilizando uma conexão com a internet.
+O sistema por sua vez é integrado e pode ser acessado em milhares de dispositivos simultaneamente, além de ser capaz de funcionar em múltiplas plataformas, como: computadores, celulares, videogames e players de mídia.
+O acesso ao conteúdo do serviço torna-se ilimitado ao usuário, mediante adesão de um plano de assinatura, a partir disto o usuário fica à vontade para usufruir da plataforma como bem quiser.
+O conteúdo é adequado de acordo com suas preferências e conteúdos assistidos, mas independentemente destas sugestões o usuário não é privado de nenhum dos conteúdos disponíveis no catálogo.
+
+Porque é um sistema distribuído:
+
+O Watchaholic é um sistema distribuído pois cumpre com as características necessárias.
+
+• É totalmente descentralizado e independente, pois requer várias máquinas para realizar o serviço de streaming ou vários servidores de armazenamento de filmes, músicas, informação de logs de usuários, etc. Outras máquinas (encoders) cuidando da codificação de filmes em diferentes formatos e dimensões de vídeo e áudio necessários para os dispositivos de reprodução do cliente. Além dos servidores de transmissão que podem estar espalhados pelo mundo em diversos países, facilitando a rota das informações e do conteúdo.
+• É comunicativo pois gera a interação entre servidores, máquinas, banco de dados e dispositivos dos usuários.
+• É transparente quanto à sua utilização, normas, acessos e restrições (caso ocorra).
+• É tolerante a falhas, pois se uma máquina que está realizando uma codificação ou enviando uma informação, falhar, qualquer outra máquina com acesso aos servidores com o conteúdo, poderá seguir com o processo de codificação e envio e tudo isso ocorre sem que o cliente perceba, evitando também pausas e falhas na transmissão que o usuário está assistindo. 
+• E é colaborativo e coerente, pois software (sistema, módulos e APIs) é construído com diversas linguagens de programação, utilizando principalmente React, Node.js, JavaScript e Java. Além de que tem as qualidades de flexibilidade para atualizações necessárias e módulos de segurança para evitar vazamentos de dados, perdas de pacote e também a pirataria. 
+
+
