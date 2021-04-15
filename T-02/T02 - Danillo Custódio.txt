@@ -1,0 +1,7 @@
+Eu acredito que a melhor tecnologia RPC a ser utilizada no projeto Watchawolic é a CORBA, isso porque ela irá atender alguns aspectos importantes do projeto que não seriam completamente atendidos com a DCOM ou com a RMI.
+
+A tecnologia CORBA fornece "interoperabilidade" entre objetos distribuídos e permite a troca de informações, plataformas de hardware independentes, linguagens de programação e sistemas operacionais. 
+
+Além disso a CORBA: facilita a reutilização do código existente devido sua tecnologia de plataforma cruzada, pode ser usada por diversas linguagens desde que o IDL possa ser mapeado para elas (tornando-a mais flexível) e fornece uma estrutura completa para segurança de objetos distribuídos. Com isso, acredito que tais atributos e características se enquadrem corretamente com a nossa proposta de projeto e por isso poderiamos utilizá-la.
+
+Danillo Custódio da Silva, BSI - 201951585781

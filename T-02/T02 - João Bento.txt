@@ -1,0 +1,7 @@
+Um Remote Procedure Call (RPC) é uma tecnologia usada para a criação de sistemas distribuidos entre servidor e cliente. O RPC trabalha com a comunicação entre os processos do cliente e os processos do servidor que trocam parametros e respostas entre si.
+
+O RPC escolhido foi o CORBA (Common Object Request Broker Architecture) é uma arquitetura que foi criada e padronizada pela OMG (Object Management Group) que nada mais é que uma organização criada com a intenção de definir padrões para sistemas distribuídos orientados a objetos com a participação de grandes empresas, esse padrão é largamente aceito, difundido e organizado sendo uns dos principais motivos para ser a arquitetura escolhida. 
+O CORBA ao ser criado pela OMG teve como um dos principais objetivos estabelecer e simplicar a troca de dados entre sistemas distribuídos heterogêneos. Devido a diversidade de hardware e software os objetos se comunicam de maneira transparente para o usuário, creio que seja a principal diferença entre outras arquiteturas são voltadas para plataformas especificas como por exemplo o RMI voltado para o Java.
+
+Em vista dos argumentos apresentados anteriormente pode-se concluir que a principal vantagem em relação a outras tecnologias RPC é que a falta de flexibilidade e padronização encontradas nesses sistemas são supridas pelo CORBA.
+ 
