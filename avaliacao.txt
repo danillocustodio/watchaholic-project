@@ -3,3 +3,9 @@ AV1
 
 T01 = 1.5 pts
 
+T02
+
+Danillo Custódio da Silva	= 1 pt
+João Paulo de Oliveira Bento	= 1 pt
+
+
