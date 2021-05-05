@@ -5,7 +5,9 @@ T01 = 1.5 pts
 
 T02
 
-Danillo Custódio da Silva	= 1 pt
-João Paulo de Oliveira Bento	= 1 pt
+	Danillo Custódio da Silva	= 1 pt
+	João Paulo de Oliveira Bento	= 1 pt
+
+T03 = 2.5 pts
 
 
