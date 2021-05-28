@@ -104,6 +104,7 @@
     align-items: center;
     justify-content: space-around;
 }
+
 .buttons button {
     width: 100%;
     display: flex;
@@ -127,6 +128,10 @@
     font-size: 1.5rem;
     color: #fff;
     margin: 0 1rem 0 2rem;
+}
+
+.bt {
+    margin-right: 8px;
 }
 
 .genres {
@@ -343,3 +348,16 @@
         " gr ";
     }
 }
+
+.container_iframe {
+    background: #000;
+    width: 100%;
+}
+
+.trailer {
+    width: 100%;
+    height: 50vw;
+    max-width: 100vw;
+    max-height: 100vw;   
+}
+
