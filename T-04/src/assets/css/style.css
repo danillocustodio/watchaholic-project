@@ -1,0 +1,266 @@
+.t_container {
+    background: var(--background);
+}
+
+.header_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding);
+    background-color: var(--background);
+    color: var(--primary);
+    font-size: var(--regular);
+}
+
+.header_logo {
+    width: 200px;
+}
+
+.header_logo img{
+    width: 100%;
+
+}
+
+.header_links {}
+
+.header_notification {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_notification i {
+    font-size: 1.25rem;
+    margin: 0 1rem;
+}
+
+.header_notification .person {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.header_notification .person img {
+    width: 100%;
+}
+
+.main_container {
+    width: 100%;
+    padding: var(--padding);
+}
+
+.main_container img {
+    width: 100%;
+    height: 450px;
+    border-radius: 1rem;
+}
+
+.movie_container {
+    padding: var(--padding);
+}
+
+.movie_container h5 {
+    color: var(--primary);
+    font-size: var(--larger);
+    padding: var(--padding);
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: " gt gr ge gw ";
+}
+
+.movie_1 {
+    grid-area: gt;
+    cursor: pointer;
+}
+
+.movie_1 img {
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: all ease .5s;
+    transform: scale(0.9);
+}
+
+.movie_1 img:hover {
+    transform: scale(1);
+}
+
+.movie_2 {
+    grid-area: gr;
+    cursor: pointer;
+}
+
+.movie_2 img {
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: all ease .5s;
+    transform: scale(0.9);
+}
+
+.movie_2 img:hover {
+    transform: scale(1);
+}
+
+.movie_3 {
+    grid-area: ge;
+    cursor: pointer;
+}
+
+.movie_3 img {
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: all ease .5s;
+    transform: scale(0.9);
+}
+
+.movie_3 img:hover {
+    transform: scale(1);
+}
+
+.movie_4 {
+    grid-area: gw;
+    cursor: pointer;
+}
+
+.movie_4 img {
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: all ease .5s;
+    transform: scale(0.9);
+}
+
+.movie_4 img:hover {
+    transform: scale(1);
+}
+
+.movie_container_play {
+    padding: var(--padding);
+}
+
+.movie_container_play h5 {
+    color: var(--primary);
+    font-size: var(--larger);
+    padding: var(--padding) 0;
+}
+
+.movies_play {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: " gt gr ";
+}
+
+.movie_1_play {
+    grid-area: gt;
+    cursor: pointer;
+}
+
+.movie_1_play img {
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: all ease .5s;
+    transform: scale(0.9);
+}
+
+.movie_1_play img:hover {
+    transform: scale(1);
+}
+
+.movie_2_play {
+    grid-area: gr;
+    cursor: pointer;
+}
+
+.movie_2_play img {
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: all ease .5s;
+    transform: scale(0.9);
+}
+
+.movie_2_play img:hover {
+    transform: scale(1);
+}
+
+.list_container {
+    padding: var(--padding);
+}
+
+.list_container a {
+    font-size: var(--x--larger);
+    cursor: pointer;
+    color: var(--gray);
+}
+
+.active{
+    border-bottom: 3px solid var(--primary);
+    color: var(--primary) !important;
+}
+
+.links:hover {
+    color: var(--gray--ligther);
+}
+
+@media (max-width: 1024px) {  
+.movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    " gt gr "
+    " ge gw ";
+}
+
+.movies_play {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: " gt gr ";
+}
+}
+
+@media (max-width: 475px) { 
+    .header_container {
+        display: none;
+    }
+
+    .main_container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+    }
+
+    .list_container a {
+        font-size: var(--regular);
+        cursor: pointer;
+        color: var(--gray);
+    }
+
+    .movie_container {
+        padding: 0;
+    }
+
+    .movies {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        " gt "
+        " gr "
+        " ge "
+        " gw ";
+    }
+
+    .movies_play {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        " gt "
+        " gr ";
+    }
+}
